@@ -1,0 +1,13 @@
+body {
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+li {
+    background: #eee;
+    list-style-type: none;
+}
+
+h3 {
+    padding: 10px;
+}
