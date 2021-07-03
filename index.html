@@ -7,8 +7,19 @@
     <script src="https://unpkg.com/vue@3.0.2"></script>
 </head>
 <body>
+    <h1>List of recipes</h1>
     <div id="app">
-        <h3>{{ testMeal }}</h3>
+        <ul>
+            <li v-for="recipe in recipeList">
+               <h3>{{recipe.name}}</h3>
+               <ul>
+                   <strong>Ingredients</strong>
+                   <li v-for="ingredient in recipe.ingredients">
+                       {{ingredient}}
+                   </li>
+               </ul>
+            </li>
+        </ul>
 
     </div>
     <script src="./app.js"></script>
