@@ -1,3 +1,5 @@
+Update: This repo is discontinued - I'll keep building the product in repo called "mealhub" which can be considered a v2 of this app.
+
 This is a test project for practicing vue.js skills and some css.
 
 The goal is to build a full fledged cook book / meal planner app which stores recipes and makes it super easy to plan meals for a period of time. The app will ideally also output a shopping list with all the necessary ingredients.
